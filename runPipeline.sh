@@ -1,3 +1,3 @@
 #!/bin/sh
-java -jar /Hello.jar TXN_FROM_DOCKER_IMG TRUE
+java -jar /Hello.jar $TXN $ACTIVE
 sleep 500
